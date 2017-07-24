@@ -21,7 +21,8 @@ html{
 	background-color: #0d0d51;
 	position: fixed;
 	left: 0;
-	top: 0;
+	/*24.07.17 снес вниз мобильное меню, чтобы не закрывало логотип*/
+	top: 200px;
 	margin-left: -180px;
 	transition: all ease 500ms;
 }
@@ -109,6 +110,27 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* 24.07.17 добавил стиль ко второй кнопке наверх*/
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:25px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
 }
 
 @media screen and (max-width: 900px) {
